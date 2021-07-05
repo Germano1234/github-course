@@ -31,6 +31,8 @@ namespace WindowsFormsApp2
             //price = priceItem * noItem;
             //lblDisplay.Text = price.ToString("C", CultureInfo.CurrentUICulture);
 
+
+
             ComponentResourceManager resources = new ComponentResourceManager(typeof(Multilingual));
             String msg = resources.GetString("MensagemErro");
             MessageBox.Show(msg);
